@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+#title{
+    font-size: 3em;
+    text-align: center;
+}
+
+#store{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img{
+    width: 200px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid lightgray;
+    box-shadow: 8px 8px 8px gray;
+}
+
+.block:hover {
+    opacity: 70%;
+}
+
+#footer{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#testo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#practice{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button1{
+   color: red; 
+}
+
+.remove{
+    display: none;
+}
+
+
+/*
+.optionwithaddclass{
+    color: orange;
+}
+*/
